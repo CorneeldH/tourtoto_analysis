@@ -1,0 +1,989 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.23.0507.0956                               -->
+<workbook original-version='18.1' source-build='2022.3.6 (20223.23.0507.0956)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ALL_asset' inline='true' name='federated.0pbwej40mgfmbg1f93a721520utx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ALL_asset' name='textscan.10thtn61a814in1gqot2q1ctqr6d'>
+            <connection class='textscan' directory='C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets' filename='ALL_asset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10thtn61a814in1gqot2q1ctqr6d' name='ALL_asset.csv' table='[ALL_asset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='nl_NL' separator=','>
+            <column datatype='integer' name='rennerID' ordinal='0' />
+            <column datatype='string' name='Naam' ordinal='1' />
+            <column datatype='integer' name='Punten_rider' ordinal='2' />
+            <column datatype='integer' name='ploegID' ordinal='3' />
+            <column datatype='integer' name='Uitgevallen' ordinal='4' />
+            <column datatype='integer' name='pnt_laatst_rider' ordinal='5' />
+            <column datatype='integer' name='pnt_dag' ordinal='6' />
+            <column datatype='integer' name='pnt_geel_rider' ordinal='7' />
+            <column datatype='integer' name='pnt_bol_rider' ordinal='8' />
+            <column datatype='integer' name='pnt_groen_rider' ordinal='9' />
+            <column datatype='integer' name='pnt_wit_rider' ordinal='10' />
+            <column datatype='integer' name='pnt_eind' ordinal='11' />
+            <column datatype='integer' name='RN' ordinal='12' />
+            <column datatype='string' name='Land' ordinal='13' />
+            <column datatype='integer' name='gekozen' ordinal='14' />
+            <column datatype='integer' name='gekozen_percentage' ordinal='15' />
+            <column datatype='integer' name='zeldzaam' ordinal='16' />
+            <column datatype='integer' name='year_int' ordinal='17' />
+            <column datatype='integer' name='team_id' ordinal='18' />
+            <column datatype='string' name='Teamnaam' ordinal='19' />
+            <column datatype='string' name='Eigenaar' ordinal='20' />
+            <column datatype='string' name='Organisatie' ordinal='21' />
+            <column datatype='string' name='Debutant' ordinal='22' />
+            <column datatype='integer' name='Betaald' ordinal='23' />
+            <column datatype='string' name='email' ordinal='24' />
+            <column datatype='string' name='renner_position' ordinal='25' />
+            <column datatype='string' name='vraag1' ordinal='26' />
+            <column datatype='string' name='vraag2' ordinal='27' />
+            <column datatype='string' name='vraag3' ordinal='28' />
+            <column datatype='string' name='vraag4' ordinal='29' />
+            <column datatype='string' name='vraag5' ordinal='30' />
+            <column datatype='string' name='fotourl' ordinal='31' />
+            <column datatype='string' name='password' ordinal='32' />
+            <column datatype='string' name='hash' ordinal='33' />
+            <column datatype='integer' name='active' ordinal='34' />
+            <column datatype='integer' name='Ploeg1' ordinal='35' />
+            <column datatype='integer' name='Ploeg2' ordinal='36' />
+            <column datatype='integer' name='Ploeg3' ordinal='37' />
+            <column datatype='integer' name='Ploeg4' ordinal='38' />
+            <column datatype='integer' name='Punten_participants' ordinal='39' />
+            <column datatype='integer' name='pnt_laatst_participants' ordinal='40' />
+            <column datatype='integer' name='pnt_geel_participants' ordinal='41' />
+            <column datatype='integer' name='pnt_bol_participants' ordinal='42' />
+            <column datatype='integer' name='pnt_groen_participants' ordinal='43' />
+            <column datatype='integer' name='pnt_wit_participants' ordinal='44' />
+            <column datatype='integer' name='pnt_vraag' ordinal='45' />
+            <column datatype='integer' name='PuntenEind' ordinal='46' />
+            <column datatype='integer' name='StandEind' ordinal='47' />
+            <column datatype='integer' name='StandAlgEind' ordinal='48' />
+            <column datatype='integer' name='day_col' ordinal='49' />
+            <column datatype='integer' name='PuntenE' ordinal='50' />
+            <column datatype='integer' name='StandDag' ordinal='51' />
+            <column datatype='integer' name='StandAlg' ordinal='52' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.10thtn61a814in1gqot2q1ctqr6d' name='ALL_asset.csv' table='[ALL_asset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='nl_NL' separator=','>
+            <column datatype='integer' name='rennerID' ordinal='0' />
+            <column datatype='string' name='Naam' ordinal='1' />
+            <column datatype='integer' name='Punten_rider' ordinal='2' />
+            <column datatype='integer' name='ploegID' ordinal='3' />
+            <column datatype='integer' name='Uitgevallen' ordinal='4' />
+            <column datatype='integer' name='pnt_laatst_rider' ordinal='5' />
+            <column datatype='integer' name='pnt_dag' ordinal='6' />
+            <column datatype='integer' name='pnt_geel_rider' ordinal='7' />
+            <column datatype='integer' name='pnt_bol_rider' ordinal='8' />
+            <column datatype='integer' name='pnt_groen_rider' ordinal='9' />
+            <column datatype='integer' name='pnt_wit_rider' ordinal='10' />
+            <column datatype='integer' name='pnt_eind' ordinal='11' />
+            <column datatype='integer' name='RN' ordinal='12' />
+            <column datatype='string' name='Land' ordinal='13' />
+            <column datatype='integer' name='gekozen' ordinal='14' />
+            <column datatype='integer' name='gekozen_percentage' ordinal='15' />
+            <column datatype='integer' name='zeldzaam' ordinal='16' />
+            <column datatype='integer' name='year_int' ordinal='17' />
+            <column datatype='integer' name='team_id' ordinal='18' />
+            <column datatype='string' name='Teamnaam' ordinal='19' />
+            <column datatype='string' name='Eigenaar' ordinal='20' />
+            <column datatype='string' name='Organisatie' ordinal='21' />
+            <column datatype='string' name='Debutant' ordinal='22' />
+            <column datatype='integer' name='Betaald' ordinal='23' />
+            <column datatype='string' name='email' ordinal='24' />
+            <column datatype='string' name='renner_position' ordinal='25' />
+            <column datatype='string' name='vraag1' ordinal='26' />
+            <column datatype='string' name='vraag2' ordinal='27' />
+            <column datatype='string' name='vraag3' ordinal='28' />
+            <column datatype='string' name='vraag4' ordinal='29' />
+            <column datatype='string' name='vraag5' ordinal='30' />
+            <column datatype='string' name='fotourl' ordinal='31' />
+            <column datatype='string' name='password' ordinal='32' />
+            <column datatype='string' name='hash' ordinal='33' />
+            <column datatype='integer' name='active' ordinal='34' />
+            <column datatype='integer' name='Ploeg1' ordinal='35' />
+            <column datatype='integer' name='Ploeg2' ordinal='36' />
+            <column datatype='integer' name='Ploeg3' ordinal='37' />
+            <column datatype='integer' name='Ploeg4' ordinal='38' />
+            <column datatype='integer' name='Punten_participants' ordinal='39' />
+            <column datatype='integer' name='pnt_laatst_participants' ordinal='40' />
+            <column datatype='integer' name='pnt_geel_participants' ordinal='41' />
+            <column datatype='integer' name='pnt_bol_participants' ordinal='42' />
+            <column datatype='integer' name='pnt_groen_participants' ordinal='43' />
+            <column datatype='integer' name='pnt_wit_participants' ordinal='44' />
+            <column datatype='integer' name='pnt_vraag' ordinal='45' />
+            <column datatype='integer' name='PuntenEind' ordinal='46' />
+            <column datatype='integer' name='StandEind' ordinal='47' />
+            <column datatype='integer' name='StandAlgEind' ordinal='48' />
+            <column datatype='integer' name='day_col' ordinal='49' />
+            <column datatype='integer' name='PuntenE' ordinal='50' />
+            <column datatype='integer' name='StandDag' ordinal='51' />
+            <column datatype='integer' name='StandAlg' ordinal='52' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;nl_NL&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;nl_NL&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rennerID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rennerID]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>rennerID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Naam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Naam]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Naam</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Punten_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Punten_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Punten_rider</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ploegID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ploegID]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>ploegID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uitgevallen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Uitgevallen]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Uitgevallen</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_laatst_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_laatst_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_laatst_rider</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_dag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_dag]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_dag</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_geel_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_geel_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_geel_rider</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_bol_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_bol_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_bol_rider</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_groen_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_groen_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_groen_rider</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_wit_rider</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_wit_rider]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_wit_rider</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_eind</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_eind]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_eind</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RN]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>RN</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Land]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Land</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gekozen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gekozen]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>gekozen</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gekozen_percentage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gekozen_percentage]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>gekozen_percentage</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zeldzaam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zeldzaam]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>zeldzaam</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_int</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year_int]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>year_int</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team_id]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>team_id</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teamnaam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Teamnaam]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Teamnaam</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eigenaar</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Eigenaar]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Eigenaar</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organisatie</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Organisatie]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Organisatie</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debutant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Debutant]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Debutant</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Betaald</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Betaald]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Betaald</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>email</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[email]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>email</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renner_position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[renner_position]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>renner_position</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vraag1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vraag1]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>vraag1</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vraag2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vraag2]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>vraag2</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vraag3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vraag3]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>vraag3</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vraag4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vraag4]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>vraag4</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vraag5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vraag5]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>vraag5</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fotourl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fotourl]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>fotourl</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>password</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[password]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>password</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hash</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hash]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>hash</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LNL_RNL' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[active]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>active</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ploeg1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ploeg1]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Ploeg1</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ploeg2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ploeg2]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Ploeg2</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ploeg3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ploeg3]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Ploeg3</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ploeg4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ploeg4]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Ploeg4</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Punten_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Punten_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>Punten_participants</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_laatst_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_laatst_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_laatst_participants</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_geel_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_geel_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_geel_participants</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_bol_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_bol_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_bol_participants</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_groen_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_groen_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_groen_participants</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_wit_participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_wit_participants]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_wit_participants</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pnt_vraag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pnt_vraag]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>pnt_vraag</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntenEind</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntenEind]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>PuntenEind</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandEind</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StandEind]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>StandEind</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandAlgEind</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StandAlgEind]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>StandAlgEind</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day_col</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day_col]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>day_col</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntenE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntenE]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>PuntenE</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandDag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StandDag]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>StandDag</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandAlg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StandAlg]</local-name>
+            <parent-name>[ALL_asset.csv]</parent-name>
+            <remote-alias>StandAlg</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Land]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ALL_asset.csv' datatype='table' name='[__tableau_internal_object_id__].[ALL_asset.csv_FE13F36516C3481384810AB2627AE781]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Netherlands&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ALL_asset.csv' id='ALL_asset.csv_FE13F36516C3481384810AB2627AE781'>
+            <properties context=''>
+              <relation connection='textscan.10thtn61a814in1gqot2q1ctqr6d' name='ALL_asset.csv' table='[ALL_asset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='nl_NL' separator=','>
+                  <column datatype='integer' name='rennerID' ordinal='0' />
+                  <column datatype='string' name='Naam' ordinal='1' />
+                  <column datatype='integer' name='Punten_rider' ordinal='2' />
+                  <column datatype='integer' name='ploegID' ordinal='3' />
+                  <column datatype='integer' name='Uitgevallen' ordinal='4' />
+                  <column datatype='integer' name='pnt_laatst_rider' ordinal='5' />
+                  <column datatype='integer' name='pnt_dag' ordinal='6' />
+                  <column datatype='integer' name='pnt_geel_rider' ordinal='7' />
+                  <column datatype='integer' name='pnt_bol_rider' ordinal='8' />
+                  <column datatype='integer' name='pnt_groen_rider' ordinal='9' />
+                  <column datatype='integer' name='pnt_wit_rider' ordinal='10' />
+                  <column datatype='integer' name='pnt_eind' ordinal='11' />
+                  <column datatype='integer' name='RN' ordinal='12' />
+                  <column datatype='string' name='Land' ordinal='13' />
+                  <column datatype='integer' name='gekozen' ordinal='14' />
+                  <column datatype='integer' name='gekozen_percentage' ordinal='15' />
+                  <column datatype='integer' name='zeldzaam' ordinal='16' />
+                  <column datatype='integer' name='year_int' ordinal='17' />
+                  <column datatype='integer' name='team_id' ordinal='18' />
+                  <column datatype='string' name='Teamnaam' ordinal='19' />
+                  <column datatype='string' name='Eigenaar' ordinal='20' />
+                  <column datatype='string' name='Organisatie' ordinal='21' />
+                  <column datatype='string' name='Debutant' ordinal='22' />
+                  <column datatype='integer' name='Betaald' ordinal='23' />
+                  <column datatype='string' name='email' ordinal='24' />
+                  <column datatype='string' name='renner_position' ordinal='25' />
+                  <column datatype='string' name='vraag1' ordinal='26' />
+                  <column datatype='string' name='vraag2' ordinal='27' />
+                  <column datatype='string' name='vraag3' ordinal='28' />
+                  <column datatype='string' name='vraag4' ordinal='29' />
+                  <column datatype='string' name='vraag5' ordinal='30' />
+                  <column datatype='string' name='fotourl' ordinal='31' />
+                  <column datatype='string' name='password' ordinal='32' />
+                  <column datatype='string' name='hash' ordinal='33' />
+                  <column datatype='integer' name='active' ordinal='34' />
+                  <column datatype='integer' name='Ploeg1' ordinal='35' />
+                  <column datatype='integer' name='Ploeg2' ordinal='36' />
+                  <column datatype='integer' name='Ploeg3' ordinal='37' />
+                  <column datatype='integer' name='Ploeg4' ordinal='38' />
+                  <column datatype='integer' name='Punten_participants' ordinal='39' />
+                  <column datatype='integer' name='pnt_laatst_participants' ordinal='40' />
+                  <column datatype='integer' name='pnt_geel_participants' ordinal='41' />
+                  <column datatype='integer' name='pnt_bol_participants' ordinal='42' />
+                  <column datatype='integer' name='pnt_groen_participants' ordinal='43' />
+                  <column datatype='integer' name='pnt_wit_participants' ordinal='44' />
+                  <column datatype='integer' name='pnt_vraag' ordinal='45' />
+                  <column datatype='integer' name='PuntenEind' ordinal='46' />
+                  <column datatype='integer' name='StandEind' ordinal='47' />
+                  <column datatype='integer' name='StandAlgEind' ordinal='48' />
+                  <column datatype='integer' name='day_col' ordinal='49' />
+                  <column datatype='integer' name='PuntenE' ordinal='50' />
+                  <column datatype='integer' name='StandDag' ordinal='51' />
+                  <column datatype='integer' name='StandAlg' ordinal='52' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E1F3A321-826E-44BB-9837-12049CAB8854}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{77C8027A-E89E-44C4-BA0B-F78FEAB7572D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
