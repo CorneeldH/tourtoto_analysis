@@ -17,9 +17,11 @@ Quarto enables you to weave together content and executable code into a finished
 
 ### Manipulate
 
--   [x] Bais gedaan
+-   [x] Basis gedaan
 -   [ ] Mapping table maken voor punten eind
-
+-   [ ] Omklappen stage_results + mapping table voor punten
+-   [ ] In manipulate riders horse factor berekenen, if gekozen --\> grey / etc / etc, zie mapping_DEM_leeftijd_cat
+-   [ ] Daarna if grey \* 2 etc etc
 
 ### Join
 
