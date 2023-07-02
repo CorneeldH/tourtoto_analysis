@@ -1,0 +1,18 @@
+variable;value
+DATA_BASE_DIR;C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/
+DATA_RAW_DIR;00_raw/
+DATA_VALIDATED_DIR;01_validated/
+DATA_MANIPULATED_DIR;02_manipulated/
+DATA_ASSET_DIR;03_assets/
+DATA_EXPORT_DIR;04_exports/
+DATA_ANALYSIS_DIR;05_analysed/
+SCRIPT_VALIDATED_DIR;01_validated/
+DATA_MANIPULATED_DIR;02_manipulate/
+DATA_ASSET_DIR;03_combined/
+DATA_EXPORT_DIR;04_export/
+DATA_ANALYSIS_DIR;05_analysis/
+METADATA_BASE_DIR;/metadata/
+METADATA_ASSERTIONS_DIR;1. Ingelezen data/
+METADATA_MAPPING_TABLES_DIR;2. Geprepareerde data/
+METADATA_MAPPING_FIXES_DIR;5. Rapportages/
+METADATA_COLNAMES_DIR;METADATA_MAPPING_FIXES_DIR
