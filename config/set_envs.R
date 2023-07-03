@@ -7,7 +7,7 @@ set_all_envs <- function(var.name, var.value) {
 }
 
 ## Lees in systeemvariabelen excel bestand
-to_set <- read_delim('..config/renviron.csv')
+to_set <- read_delim("config/renviron.csv")
 
 
 
