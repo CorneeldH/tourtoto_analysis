@@ -68,6 +68,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="todo_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="todo_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="todo_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="todo_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="todo_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="todo_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -114,8 +117,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="manipulate" class="level3">
 <h3 class="anchored" data-anchor-id="manipulate">Manipulate</h3>
 <ul class="task-list">
-<li><input type="checkbox">Filter vars renners</li>
-<li><input type="checkbox">Filter vars deelnemers</li>
+<li><input type="checkbox" checked="">Basis gedaan</li>
+<li><input type="checkbox">Mapping table maken voor punten eind</li>
+<li><input type="checkbox">Omklappen stage_results + mapping table voor punten</li>
+<li><input type="checkbox">In manipulate riders horse factor berekenen, if gekozen –&gt; grey / etc / etc, zie mapping_DEM_leeftijd_cat</li>
+<li><input type="checkbox">Daarna if grey * 2 etc etc</li>
 </ul>
 </section>
 <section id="join" class="level3">
@@ -127,13 +133,83 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 [ ] Update the website</code></pre>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    subgraph 01_validate
+        validate_participants[validate_participants.R]
+        validate_riders[validate_riders.R]
+    end
+    subgraph 02_manipulate
+        manipulate_participants[manipulate_participants.R]
+        manipulate_riders[manipulate_riders.R]
+    end
+    subgraph 03_assetize
+        assetize[assetize.R]
+    end
+    style validate_participants fill:#f9d79b,stroke:#f1c40f,stroke-width:2px
+    style validate_riders fill:#f9d79b,stroke:#f1c40f,stroke-width:2px
+    style manipulate_participants fill:#aed6f1,stroke:#3498db,stroke-width:2px
+    style manipulate_riders fill:#aed6f1,stroke:#3498db,stroke-width:2px
+    style assetize fill:#a9dfbf,stroke:#27ae60,stroke-width:2px
+    validate_participants --&gt; manipulate_participants
+    validate_riders --&gt; manipulate_riders
+    manipulate_participants --&gt; assetize
+    manipulate_riders --&gt; assetize
+
+</pre>
 </div>
 </div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    c1--&gt;a2
+    subgraph one
+    a1--&gt;a2
+    end
+    subgraph two
+    b1--&gt;b2
+    end
+    subgraph three
+    c1--&gt;c2
+    end
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    subgraph " "
+        cell1(1) --- cell2(2) --- cell3(3)
+    end
+    cell1 --- xValue[abcdef]
+    cell2 --- yValue1(4)
+    cell3 --- yValue2(6)
+    yValue1 --- yValue3(6)
+    style cell1 fill:#ffffff,stroke:#000000
+    style cell2 fill:#ffffff,stroke:#000000
+    style cell3 fill:#ffffff,stroke:#000000
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>fun2(square()) fun2 – Inherits from –&gt; global call((square(10))) call – Execution Environment –&gt; callEnv((square(10))) callEnv – Looks up ‘x’ in –&gt; callEnv callEnv – Looks up ‘exp’ in –&gt; fun2</p>
 <p>You can add options to executable code like this</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 4</code></pre>
 </div>
