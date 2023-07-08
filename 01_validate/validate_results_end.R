@@ -10,7 +10,7 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-files_end_results_chr <- c(
+files_results_end_chr <- c(
   ## Aanmeldingen
   list.files(
     "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/00_raw",
@@ -20,11 +20,11 @@ files_end_results_chr <- c(
   )
 )
 
-years_end_results_int <- as.numeric(str_extract(files_end_results_chr, "([0-9]+)(?=[^/]*$)"))
+years_results_end_int <- as.numeric(str_extract(files_results_end_chr, "([0-9]+)(?=[^/]*$)"))
 
-end_results_df <- files_end_results_chr %>%
+results_end_df <- files_results_end_chr %>%
   map(read_csv) %>%
-  map2(years_end_results_int, ~ mutate(.x, year_int = .y) %>%
+  map2(years_results_end_int, ~ mutate(.x, year_int = .y) %>%
          mutate(across(starts_with("Stand"), ~as.integer(.)))) %>%
   reduce(bind_rows)
 
@@ -40,8 +40,8 @@ end_results_df <- files_end_results_chr %>%
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 write_rds(
-  end_results_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_end_results.rds"
+  results_end_df,
+  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_results_end.rds"
 )
 
 clear_script_objects()
