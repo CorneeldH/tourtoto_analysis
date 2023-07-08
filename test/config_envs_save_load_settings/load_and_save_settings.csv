@@ -1,0 +1,4 @@
+script_dir;load_data_dir;save_data_dir;base_data_dir;add_branch;save_rds;save_csv;save_fst;read_extension;notes
+01_validate/;00_raw;01_validated;C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/;TRUE;TRUE;FALSE;FALSE;csv;
+02_manipulate/;01_validated;02_manipulated;C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/;TRUE;TRUE;FALSE;FALSE;rds;
+03_assetize/;02_manipulated;03_assets;C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/;TRUE;TRUE;TRUE;FALSE;rds;
