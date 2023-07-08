@@ -18,14 +18,19 @@ Quarto enables you to weave together content and executable code into a finished
 ### Manipulate
 
 -   [x] Basis gedaan
--   [ ] Mapping table maken voor punten eind
--   [ ] Omklappen stage_results + mapping table voor punten
--   [ ] In manipulate riders horse factor berekenen, if gekozen --\> grey / etc / etc, zie mapping_DEM_leeftijd_cat
--   [ ] Daarna if grey \* 2 etc etc
+-   [x] Mapping table maken voor punten eind
+-   [x] Omklappen results_stage + mapping table voor punten
+-   [x] In manipulate riders horse factor berekenen, if gekozen --\> grey / etc / etc, zie mapping_DEM_leeftijd_cat
+-   [x] Daarna if grey \* 2 etc etc
 
 ### Join
 
 -   [x] Join by iterating over renner1 - renner15
+-   [x] Participants results
+-   [x] Riders results
+-   [x] Participants Riders results
+-   [x] 
+-   [x] 
 
 ```         
 - [x] Write the press release - 
@@ -33,8 +38,6 @@ Quarto enables you to weave together content and executable code into a finished
 ```
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-
 
 ```{mermaid}
 graph TB
@@ -76,7 +79,7 @@ flowchart TB
     end
 
 
-```  
+```
 
 ```{mermaid}
 flowchart TB
@@ -94,12 +97,7 @@ flowchart TB
 
 ```
 
-   fun2(square())
-   fun2 -- Inherits from --> global
-   call((square(10)))
-   call -- Execution Environment --> callEnv((square(10)))
-   callEnv -- Looks up 'x' in --> callEnv
-   callEnv -- Looks up 'exp' in --> fun2
+fun2(square()) fun2 -- Inherits from --\> global call((square(10))) call -- Execution Environment --\> callEnv((square(10))) callEnv -- Looks up 'x' in --\> callEnv callEnv -- Looks up 'exp' in --\> fun2
 
 You can add options to executable code like this
 
