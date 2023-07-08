@@ -133,10 +133,12 @@ options(renv.snapshot.filter = function(project) {
 ## Update renv.lock
 ## NOTE: This is done without prompt in order to do it at start-up
 ## TODO: When updating all packages enable prompt
-#renv::snapshot(type = "custom", prompt = FALSE)
+renv::snapshot(type = "custom", prompt = FALSE)
 
 
+function_files <- list.files("repo_functions", full.names = TRUE)
 
+walk(function_files, source)
 
 ###
 ## ruim op
