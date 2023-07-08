@@ -10,8 +10,7 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-riders_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_riders.rds")
-participants_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/PAR_participants.rds")
+participants_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/PAR_participants.rds")
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## 2. AGGREGATE ####
@@ -23,24 +22,26 @@ participants_df_long <- participants_df %>%
                values_to = "renner_ID") %>%
   select(1:7, renner_position, renner_ID, everything()) %>%
   pivot_longer(
-    #cols = starts_with(c("StandAlg", "StandDag", "PuntenE")),
-    cols = c(PuntenE1:PuntenE21, StandDag1:StandDag21, StandAlg1:StandAlg21),
+    # Cols with points and positions
+    cols = matches("(StandAlg|StandDag|PuntenE|pnt_)"),
     names_to = c(".value", "day_col"),
-    names_pattern = "(StandAlg|StandDag|PuntenE)(\\d+)",
+    names_pattern = "(StandAlg|StandDag|PuntenE|pnt_)(.*)",
     values_drop_na  = TRUE
-  )
+  ) %>%
+  mutate(PuntenE = coalesce(PuntenE, pnt_)) %>%
+  select(-pnt_)
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## 3. COMBINE ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-full_df <-riders_df %>%
-  full_join(participants_df_long,
-            by = c("rennerID" = "renner_ID",
-                   "year_int"),
-            suffix = c("_rider", "_participants")
-  )
+# full_df <-riders_df %>%
+#   full_join(participants_df_long,
+#             by = c("rennerID" = "renner_ID",
+#                    "year_int"),
+#             suffix = c("_rider", "_participants")
+#   )
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## SAVE & CLEAN ####
