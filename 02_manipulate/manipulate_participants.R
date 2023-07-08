@@ -18,6 +18,12 @@ participants_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/d
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## Pas kolomnamen aan met behulp van de documentatie
 
+## standardize names so it can easily be pivoted later
+participants_df <- participants_df %>%
+  rename(StandDagEind = StandEind,
+         PuntenEEind = PuntenEind)
+
+## TODO make stand cols for pnt_ cols
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## SAVE & CLEAN ####
