@@ -25,7 +25,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='ALL_asset' name='textscan.10thtn61a814in1gqot2q1ctqr6d'>
-            <connection class='textscan' directory='C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets' filename='ALL_asset.csv' password='' server='' />
+            <connection class='textscan' directory='data/03_assets' filename='ALL_asset.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10thtn61a814in1gqot2q1ctqr6d' name='ALL_asset.csv' table='[ALL_asset#csv]' type='table'>

@@ -10,7 +10,7 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-riders_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_riders.rds")
+riders_df <- read_rds("data/01_validated/RID_riders.rds")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -54,7 +54,7 @@ riders <- riders %>%
 
 write_rds(
   riders,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/RID_riders.rds"
+  "data/02_manipulated/RID_riders.rds"
 )
 
 clear_script_objects()

@@ -13,7 +13,7 @@
 files_participants_chr <- c(
   ## Aanmeldingen
   list.files(
-    "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/00_raw",
+    "data/00_raw",
     full.names = TRUE,
     ## Een reguliere expressie waarin gezocht wordt naar:
     pattern = "deelnemers"
@@ -41,7 +41,7 @@ participants_df <- files_participants_chr %>%
 
 write_rds(
   participants_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/PAR_participants.rds"
+  "data/01_validated/PAR_participants.rds"
 )
 
 clear_script_objects()

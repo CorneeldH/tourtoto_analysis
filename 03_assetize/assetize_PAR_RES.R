@@ -10,7 +10,7 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-participants_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/PAR_participants.rds")
+participants_df <- read_rds("data/02_manipulated/PAR_participants.rds")
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## 2. AGGREGATE ####
@@ -49,12 +49,12 @@ participants_df_long <- participants_df %>%
 
 write_rds(
   full_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets/ALL_asset.rds"
+  "data/03_assets/ALL_asset.rds"
 )
 
 write_csv(
   full_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets/ALL_asset.csv"
+  "data/03_assets/ALL_asset.csv"
 )
 
 clear_script_objects()

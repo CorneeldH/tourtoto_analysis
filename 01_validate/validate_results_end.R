@@ -13,7 +13,7 @@
 files_results_end_chr <- c(
   ## Aanmeldingen
   list.files(
-    "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/00_raw",
+    "data/00_raw",
     full.names = TRUE,
     ## Een reguliere expressie waarin gezocht wordt naar:
     pattern = "renner_eind"
@@ -41,7 +41,7 @@ results_end_df <- files_results_end_chr %>%
 
 write_rds(
   results_end_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_results_end.rds"
+  "data/01_validated/RID_results_end.rds"
 )
 
 clear_script_objects()

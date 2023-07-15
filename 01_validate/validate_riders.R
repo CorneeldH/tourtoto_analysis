@@ -10,7 +10,7 @@
 files_riders_chr <- c(
   ## Aanmeldingen
   list.files(
-    "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/00_raw",
+    "data/00_raw",
     full.names = TRUE,
     ## Een reguliere expressie waarin gezocht wordt naar:
     pattern = "renners"
@@ -22,7 +22,9 @@ years_riders_int <- as.numeric(str_extract(files_riders_chr, "([0-9]+)(?=[^/]*$)
 riders_df <- files_riders_chr %>%
   map(read_csv) %>%
   map2(years_riders_int, ~ mutate(.x, year_int = .y)) %>%
-  reduce(bind_rows)
+  reduce(bind_rows) %>%
+  mutate(Rugnummer = coalesce(Rugnummer, RN)) %>%
+  select(-RN)
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -37,7 +39,7 @@ riders_df <- files_riders_chr %>%
 
 write_rds(
   riders_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_riders.rds"
+  "data/01_validated/RID_riders.rds"
 )
 
 clear_script_objects()

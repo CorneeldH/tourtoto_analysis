@@ -10,7 +10,7 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-results_stage_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_results_stage.rds")
+results_stage_df <- read_rds("data/01_validated/RID_results_stage.rds")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -36,7 +36,7 @@ results_stage_df <- results_stage_df %>%
 
 write_rds(
   results_stage_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/RID_results_stage.rds"
+  "data/02_manipulated/RID_results_stage.rds"
 )
 
 clear_script_objects()

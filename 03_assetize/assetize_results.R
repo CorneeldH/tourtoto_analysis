@@ -10,9 +10,9 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-riders_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/RID_riders.rds")
-results_stage_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/RID_results_stage.rds")
-results_end_df <- read_rds("C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/02_manipulated/RID_results_end.rds")
+riders_df <- read_rds("data/02_manipulated/RID_riders.rds")
+results_stage_df <- read_rds("data/02_manipulated/RID_results_stage.rds")
+results_end_df <- read_rds("data/02_manipulated/RID_results_end.rds")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -42,12 +42,12 @@ results <- bind_rows(results, results_final_day)
 
 write_rds(
   results,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets/RES_results.rds"
+  "data/03_assets/RES_results.rds"
 )
 
 write_csv(
   results,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/03_assets/RES_results.csv"
+  "data/03_assets/RES_results.csv"
 )
 
 clear_script_objects()
