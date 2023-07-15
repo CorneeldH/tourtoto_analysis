@@ -1,0 +1,199 @@
+Rugnummer,Naam,Punten,ploegID,Uitgevallen,pnt_laatst,pnt_dag,RN,Land
+1,FROOME Christopher,9,1,1,0,0,1,United Kingdom
+2,EISEL Bernhard,5,1,0,5,5,2,Austria
+3,KIRYIENKA Vasil,10,1,0,0,0,3,Belarus
+4,LOPEZ GARCIA David,0,1,0,0,0,4,Spain
+5,NIEVE ITURALDE Mikel,4,1,0,3,0,5,Spain
+6,PATE Danny,0,1,0,0,0,6,United States
+7,PORTE Richie,44,1,0,0,0,7,Australia
+8,THOMAS Geraint,0,1,0,0,0,8,United Kingdom
+9,ZANDIO ECHAIDE Xabier,0,1,1,0,0,9,Spain
+10,VALVERDE BELMONTE Alejandro,121,2,0,24,0,11,Spain
+11,ERVITI Imanol,0,2,0,0,0,12,Spain
+12,GADRET John,2,2,0,2,0,13,France
+13,HERRADA LOPEZ Jesús,0,2,0,0,0,14,Spain
+14,INTXAUSTI ELORRIAGA Benat,0,2,0,0,0,15,Spain
+15,IZAGUIRRE INSAUSTI Jon,0,2,0,0,0,16,Spain
+16,PLAZA MOLINA Ruben,0,2,0,0,0,17,Spain
+17,ROJAS GIL Jose Joaquin,16,2,1,0,0,18,Spain
+18,VISCONTI Giovanni,18,2,0,3,0,19,Italy
+19,RODRIGUEZ OLIVER Joaquin,48,3,0,11,0,21,Spain
+20,ISAYCHEV Vladimir,0,3,0,0,0,22,Russia
+21,KRISTOFF Alexander,132,3,0,33,15,23,Norway
+22,PAOLINI Luca,0,3,0,0,0,24,Italy
+23,PORSEV Alexander,0,3,1,0,0,25,Russia
+24,SILIN Egor,0,3,1,0,0,26,Russia
+25,SMUKULIS Gatis,0,3,0,0,0,27,Latvia
+26,SPILAK Simon,0,3,1,0,0,28,Slovenia
+27,TROFIMOV Yury,7,3,0,7,0,29,Russia
+28,CONTADOR VELASCO Alberto,17,4,1,0,0,31,Spain
+29,BENNATI Daniele,19,4,0,0,0,32,Italy
+30,HERNANDEZ BLAZQUEZ Jesus,0,4,1,0,0,33,Spain
+31,MAJKA Rafal,121,4,0,25,0,34,Poland
+32,MORKOV Michael,0,4,0,0,0,35,Denmark
+33,PAULINHO Sergio Miguel Moreira,0,4,0,0,0,36,Portugal
+34,ROCHE Nicholas,2,4,0,0,0,37,Ireland
+35,ROGERS Michael,28,4,0,0,0,38,Australia
+36,TOSATTO Matteo,0,4,0,0,0,39,Italy
+37,FUGLSANG Jakob,51,5,0,0,0,42,Denmark
+38,GRIVKO Andriy,0,5,0,0,0,43,Ukraine
+39,GRUZDEV Dmitriy,0,5,0,0,0,44,Kazahkstan
+40,IGLINSKIY Maxim,0,5,0,0,0,45,Kazahkstan
+41,KANGERT Tanel,1,5,0,1,0,46,Estonia
+42,SCARPONI Michele,0,5,0,0,0,47,Italy
+43,VANOTTI Alessandro,0,5,0,0,0,48,Italy
+44,WESTRA Lieuwe,3,5,0,0,0,49,Netherlands
+45,NIBALI Vincenzo,404,5,0,63,0,41,Italy
+46,SAGAN Peter,277,6,0,27,2,51,Slovakia
+47,BODNAR Maciej,0,6,0,0,0,52,Poland
+48,DE MARCHI Alessandro,12,6,0,5,0,53,Italy
+49,KING Edward,0,6,1,0,0,54,United States
+50,KOREN Kristjan,0,6,0,0,0,55,Slovenia
+51,MARCATO Marco,0,6,0,0,0,56,Italy
+52,MARINO Jean Marc,0,6,0,0,0,57,France
+53,SABATINI Fabio,0,6,0,0,0,58,Italy
+54,VIVIANI Elia,0,6,0,0,0,59,Italy
+55,MOLLEMA Bauke,21,7,0,11,0,61,Netherlands
+56,BOOM Lars,20,7,0,0,0,62,Netherlands
+57,CLEMENT Stef,0,7,1,0,0,63,Netherlands
+58,KRUIJSWIJK Steven,10,7,0,6,0,64,Netherlands
+59,LEEZER Tom,0,7,0,0,0,65,Netherlands
+60,TANKINK Bram,0,7,0,0,0,66,Netherlands
+61,TEN DAM Laurens,18,7,0,12,0,67,Netherlands
+62,VANMARCKE Sep,9,7,0,0,0,68,Belgium
+63,WYNANTS Maarten,0,7,0,0,0,69,Belgium
+64,CAVENDISH Mark,0,8,1,0,0,71,United Kingdom
+65,BAKELANTS Jan,0,8,0,0,0,72,Belgium
+66,GOLAS Michal,0,8,0,0,0,73,Poland
+67,KWIATKOWSKI Michal,34,8,0,0,0,74,Poland
+68,MARTIN Tony,48,8,0,0,0,75,Germany
+69,PETACCHI Alessandro,8,8,0,3,3,76,Italy
+70,RENSHAW Mark,48,8,0,12,6,77,Australia
+71,TERPSTRA Niki,0,8,0,0,0,78,Netherlands
+72,TRENTIN Matteo,32,8,0,0,0,79,Italy
+73,PERAUD Jean Christophe,112,9,0,39,0,81,France
+74,BARDET Romain,77,9,0,15,0,82,France
+75,CHEREL Mickaël,3,9,0,0,0,83,France
+76,DUMOULIN Samuel,20,9,0,1,0,84,France
+77,GASTAUER Ben,0,9,0,0,0,85,Luxembourg
+78,KADRI Blel,46,9,0,0,0,86,France
+79,MINARD Sébastien,0,9,0,0,0,87,France
+80,MONTAGUTI Matteo,9,9,0,0,0,88,Italy
+81,RIBLON Christophe,0,9,0,0,0,89,France
+82,ACEVEDO COLLE Janier Alexis,0,10,1,0,0,92,Colombia
+83,BAUER Jack,1,10,0,0,0,93,New Zealand
+84,HOWES Alex,0,10,0,0,0,94,United States
+85,KING Benjamin,0,10,0,0,0,95,United States
+86,LANGEVELD Sebastian,0,10,0,0,0,96,Netherlands
+87,NAVARDAUSKAS Ramunas,59,10,0,13,10,97,Lithuania
+88,SLAGTER Tom Jelte,2,10,0,0,0,98,Netherlands
+89,VAN SUMMEREN Johan,0,10,0,0,0,99,Belgium
+90,TALANSKY Andrew,4,10,1,0,0,91,United States
+91,KITTEL Marcel,119,11,0,28,20,101,Germany
+92,CURVERS Roy,0,11,0,0,0,102,Netherlands
+93,DE KORT Koen,0,11,0,0,0,103,Netherlands
+94,DEGENKOLB John,30,11,0,0,0,104,Germany
+95,DEVENYNS Dries,0,11,1,0,0,105,Belgium
+96,DUMOULIN Tom,31,11,0,0,0,106,Netherlands
+97,JI Cheng,0,11,0,0,0,107,China
+98,TIMMER Albert,0,11,0,0,0,108,Netherlands
+99,VEELERS Tom,4,11,0,0,0,109,Netherlands
+100,FARIA DA COSTA Rui Alberto,0,12,1,0,0,111,Portugal
+101,CIMOLAI Davide,2,12,0,0,0,112,Italy
+102,DURASEK Kristijan,0,12,0,0,0,113,Croatia
+103,HORNER Christopher,4,12,0,4,0,114,United States
+104,MODOLO Sacha,0,12,1,0,0,115,Italy
+105,SANTOS SIMOES OLIVEIRA Nelson Filipe,0,12,0,0,0,116,Portugal
+106,RICHEZE Ariel Maximiliano,0,12,1,0,0,117,Argentina
+107,SERPA PEREZ Jose Rodolfo,8,12,0,0,0,118,Colombia
+108,VALLS FERRI Rafael,0,12,1,0,0,119,Spain
+109,PINOT Thibaut,133,13,0,34,0,121,France
+110,BONNET William,0,13,0,0,0,122,France
+111,DELAGE Mickael,0,13,0,0,0,123,France
+112,DEMARE Arnaud,20,13,0,0,0,124,France
+113,JEANNESSON Arnold,0,13,0,0,0,125,France
+114,LADAGNOUS Matthieu,0,13,0,0,0,126,France
+115,PINEAU Cedric,0,13,0,0,0,127,France
+116,ROY Jérémy,0,13,0,0,0,128,France
+117,VICHOT Arthur,0,13,1,0,0,129,France
+118,GREIPEL André,45,14,0,12,8,131,Germany
+119,BAK Lars Ytting,0,14,0,0,0,132,Denmark
+120,DE CLERCQ Bart,0,14,1,0,0,133,Belgium
+121,GALLOPIN Tony,51,14,0,0,0,134,France
+122,HANSEN Adam,0,14,0,0,0,135,Australia
+123,HENDERSON Gregory,0,14,1,0,0,136,New Zealand
+124,ROELANDTS Jurgen,1,14,0,0,0,137,Belgium
+125,SIEBERG Marcel,0,14,0,0,0,138,Germany
+126,VAN DEN BROECK Jurgen,10,14,0,8,0,139,Belgium
+127,VAN GARDEREN Tejay,58,15,0,19,0,141,United States
+128,ATAPUMA HURTADO Jhon Darwin,0,15,1,0,0,142,Colombia
+129,BURGHARDT Marcus,0,15,0,0,0,143,Germany
+130,MOINARD Amaël,0,15,0,0,0,144,France
+131,OSS Daniel,11,15,0,0,0,145,Italy
+132,SCHÄR Michael,0,15,0,0,0,146,Switzerland
+133,STETINA Peter,0,15,0,0,0,147,United States
+134,VAN AVERMAET Greg,51,15,0,2,0,148,Belgium
+135,VELITS Peter,0,15,0,0,0,149,Slovakia
+136,VOECKLER Thomas,25,16,0,4,0,159,France
+137,ARASHIRO Yukiya,0,16,0,0,0,152,Japan
+138,COQUARD Bryan,105,16,0,15,4,153,France
+139,GAUTIER Cyril,10,16,0,0,0,154,France
+140,GENE Yohann,0,16,0,0,0,155,France
+141,PICHOT Alexandre,0,16,0,0,0,156,France
+142,QUEMENEUR Perrig,0,16,0,0,0,157,France
+143,REZA Kevin,1,16,0,0,0,158,France
+144,ROLLAND Pierre,18,16,0,10,0,151,France
+145,SCHLECK Frank,18,17,0,9,0,161,Luxembourg
+146,BUSCHE Matthew,0,17,0,0,0,162,United States
+147,CANCELLARA Fabian,25,17,1,0,0,163,Switzerland
+148,IRIZAR ARANBURU Markel,2,17,0,0,0,164,Spain
+149,RAST Grégory,0,17,0,0,0,165,Switzerland
+150,SCHLECK Andy,0,17,1,0,0,166,Luxembourg
+151,VAN POPPEL Danny,8,17,1,0,0,167,Netherlands
+152,VOIGT Jens,11,17,0,0,0,168,Germany
+153,ZUBELDIA AGIRRE Haimar,15,17,0,13,0,169,Spain
+154,NAVARRO GARCIA Daniel,0,18,1,0,0,171,Spain
+155,EDET Nicolas,1,18,0,0,0,172,France
+156,GARCIA ETXEGIBEL Egoitz,0,18,1,0,0,173,Spain
+157,LEMOINE Cyril,34,18,0,0,0,174,France
+158,MATE MARDONES Luis Angel,0,18,0,0,0,175,Spain
+159,MOLARD Rudy,0,18,0,0,0,176,France
+160,PETIT Adrien,0,18,0,0,0,177,France
+161,SIMON Julien,3,18,0,0,0,178,France
+162,TAARAMAE Rein,0,18,0,0,0,179,Estonia
+163,ALBASINI Michael,32,19,0,0,0,182,Switzerland
+164,CLARKE Simon,0,19,0,0,0,183,Australia
+166,HAYMAN Mathew,0,19,1,0,0,185,Australia
+168,KEUKELEIRE Jens,5,19,0,0,0,186,Belgium
+170,MEIER Christian,0,19,0,0,0,187,Australia
+171,GERRANS Simon,12,19,1,0,0,181,Australia
+172,CHAVANEL Sylvain,9,20,0,0,0,191,France
+173,ELMIGER Martin,0,20,0,0,0,192,Switzerland
+174,FRANK Mathias,0,20,1,0,0,193,Switzerland
+175,HAUSSLER Heinrich,19,20,1,0,0,194,Australia
+176,HOLLENSTEIN Reto,0,20,1,0,0,195,Switzerland
+177,KLUGE Roger,0,20,0,0,0,196,Germany
+178,PINEAU Jérôme,0,20,0,0,0,197,France
+179,REICHENBACH Sébastien,0,20,0,0,0,198,Switzerland
+180,WYSS Marcel,0,20,0,0,0,199,Switzerland
+181,KONIG Leopold,38,21,0,14,0,201,Czech Republic
+182,BARTA Jan,10,21,0,0,0,202,Czech Republic
+183,DE LA CRUZ MELGAREJO David,0,21,1,0,0,203,Spain
+184,DEMPSTER Zakkari,0,21,0,0,0,204,Australia
+185,HUZARSKI Bartosz,0,21,0,0,0,205,Poland
+186,MACHADO Tiago,7,21,0,0,0,206,Portugal
+187,PIMENTA COSTA MENDES José Joao,0,21,0,0,0,207,Portugal
+188,SCHILLINGER Andreas,0,21,0,0,0,208,Germany
+189,VOSS Paul,0,21,0,0,0,209,Germany
+190,FEILLU Brice,7,22,0,5,0,211,France
+191,BIDEAU Jean-Marc,0,22,0,0,0,212,France
+192,DELAPLACE Anthony,0,22,0,0,0,213,France
+193,FEILLU Romain,11,22,0,1,1,214,France
+194,FONSECA Armindo,0,22,0,0,0,215,France
+195,GERARD Arnaud,0,22,0,0,0,216,France
+196,GUILLOU Florian,0,22,0,0,0,217,France
+197,JARRIER Benoit,3,22,0,0,0,218,France
+198,VACHON Florian,0,22,0,0,0,219,France
+199,DURBRIDGE Luke,0,19,0,0,0,184,Australia
+200,TUFT Svein,0,19,0,0,0,188,Canada
+201,YATES Simon,0,19,1,0,0,189,United Kingdom

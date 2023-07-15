@@ -1,0 +1,199 @@
+Rugnummer,Naam,Punten,ploegID,Uitgevallen,pnt_laatst,pnt_dag,RN
+91,Mark Cavendish (GBR),137,9,0,28,10,151
+92,Sylvain Chavanel (FRA),11,9,0,0,0,152
+93,Michał Kwiatkowski (POL),75,9,0,13,0,153
+94,Tony Martin (GER),20,9,0,0,0,154
+95,Jérôme Pineau (FRA),0,9,0,0,0,155
+96,Gert Steegmans (BEL),0,9,0,0,0,156
+97,Niki Terpstra (NED),6,9,0,0,0,157
+98,Matteo Trentin (ITA),28,9,0,0,0,158
+99,Peter Velits (SVK),0,9,0,0,0,159
+111,Stuart O'Grady (AUS),0,11,0,0,0,188
+112,Matt Goss (AUS),0,11,0,0,0,184
+113,Daryl Impey (RSA),48,11,0,0,0,185
+114,Brett Lancaster (AUS),0,11,0,0,0,186
+115,Svein Tuft (CAN),5,11,0,0,0,189
+116,Simon Gerrans (AUS),58,11,0,0,0,181
+117,Michael Albasini (SUI),35,11,0,0,0,182
+118,Simon Clarke (AUS),13,11,0,0,0,183
+119,Cameron Meyer (AUS),2,11,0,0,0,187
+61,Jan Bakelants (BEL),53,6,0,3,0,42
+62,Laurent Didier (LUX),0,6,0,0,0,43
+63,Tony Gallopin (FRA),4,6,0,0,0,44
+64,Markel Irizar (ESP),0,6,0,0,0,45
+65,Andreas Klöden (GER),21,6,0,0,0,46
+66,Maxime Monfort (BEL),8,6,0,7,0,47
+67,Andy Schleck (LUX),1,6,0,1,0,41
+68,Jens Voigt (GER),0,6,0,0,0,48
+69,Haimar Zubeldia (ESP),0,6,0,0,0,49
+201,Lars Boom (NED),0,20,0,0,0,161
+202,Laurens ten Dam (NED),35,20,0,8,0,167
+203,Robert Gesink (NED),4,20,0,0,0,162
+204,Tom Leezer (NED),0,20,0,0,0,163
+205,Bauke Mollema (NED),103,20,0,15,0,164
+206,Lars Petter Nordhaug (NOR),0,20,0,0,0,165
+207,Bram Tankink (NED),0,20,0,0,0,166
+208,Sep Vanmarcke (BEL),0,20,0,0,0,168
+209,Maarten Wynants (BEL),0,20,0,0,0,169
+211,Pavel Brutt (RUS),2,21,0,0,0,102
+212,Alexander Kristoff (NOR),64,21,0,11,5,103
+213,Aliaksandr Kuchynski (BLR),0,21,0,0,0,104
+214,Alberto Losada (ESP),0,21,0,0,0,105
+215,Daniel Moreno (EPS),12,21,0,4,0,106
+216,Joaquim Rodriguez (ESP),89,21,0,34,0,101
+217,Gatis Smukulis (LAT),0,21,0,0,0,107
+218,Yuriy Trofimov (RUS),0,21,0,0,0,108
+219,Eduard Vorganov (RUS),0,21,0,0,0,109
+151,Lars Bak (DEN),5,15,0,0,0,22
+152,Bart De Clercq (BEL),5,15,0,0,0,23
+153,André Greipel (GER),96,15,0,26,15,24
+154,Adam Hansen (AUS),0,15,0,0,0,25
+155,Greg Henderson (NZL),4,15,0,0,0,26
+156,Jürgen Roelandts (BEL),3,15,0,0,0,27
+157,Marcel Sieberg (GER),0,15,1,0,0,28
+158,Jurgen van den Broeck (BEL),0,15,1,0,0,21
+159,Frederik Willems (BEL),0,15,0,0,0,29
+141,Maciej Bodnar (POL),0,14,0,0,0,12
+142,Alessandro De Marchi (ITA),3,14,0,0,0,13
+143,Kristijan Koren (SLO),0,14,0,0,0,15
+144,Alan Marangoni (ITA),0,14,0,0,0,16
+145,Moreno Moser (ITA),14,14,0,4,0,17
+146,Fabio Sabatini (ITA),0,14,0,0,0,18
+147,Peter Sagan (SLO),234,14,0,33,8,11
+148,Ted King (USA),0,14,1,0,0,14
+149,Brian Vandborg (DEN),0,14,0,0,0,19
+161,Kris Boeckmans (BEL),1,16,1,0,0,202
+162,Thomas de Gendt (BEL),10,16,0,0,0,203
+163,Juan Antonio Flecha (ESP),10,16,0,5,0,204
+164,Johnny Hoogerland (NED),0,16,0,0,0,205
+165,Sergey Lagutin (UZB),1,16,0,0,0,206
+166,Wout Poels (NED),4,16,0,0,0,201
+167,Boy van Poppel (NED),0,16,0,0,0,207
+168,Danny van Poppel (NED),22,16,1,0,0,208
+169,Lieuwe Westra (NED),0,16,1,0,0,209
+121,Yoann Bagot (FRA),0,12,1,0,0,132
+122,Jérôme Coppel (FRA),8,12,0,0,0,133
+123,Egoitz Garcia (ESP),6,12,0,0,0,134
+124,Christophe Le Mével (FRA),0,12,1,0,0,135
+125,Guillaume Levarlet (FRA),0,12,0,0,0,136
+126,Luis Angel Maté (ESP),0,12,0,0,0,137
+127,Rudy Molard (FRA),0,12,0,0,0,138
+128,Daniel Navarro (ESP),20,12,0,12,0,139
+129,Rein Taaramae (EST),0,12,0,0,0,131
+171,Brent Bookwalter (USA),0,17,0,0,0,32
+172,Marcus Burghardt (GER),0,17,0,0,0,33
+173,Cadel Evans (AUS),5,17,0,0,0,31
+174,Philippe Gilbert (BEL),9,17,0,0,0,34
+175,Amaël Moinard (FRA),0,17,0,0,0,35
+176,Steve Morabito (SUI),0,17,0,0,0,36
+177,Manuel Quinziato (ITA),0,17,0,0,0,37
+178,Michael Schär (SUI),0,17,1,0,0,38
+179,Tejay van Garderen (USA),17,17,0,1,0,39
+131,Rui Costa (POR),40,13,0,0,0,124
+132,Nairo Quintana (COL),149,13,0,58,0,128
+133,Andrey Amador (CRC),0,13,0,0,0,122
+134,Jonathan Castroviejo (ESP),1,13,0,0,0,123
+135,Rubén Plaza (ESP),1,13,0,0,0,127
+136,Imanol Erviti (ESP),0,13,0,0,0,125
+137,Iván Gutiérrez (ESP),0,13,1,0,0,126
+138,José Joaquín Rojas (ESP),34,13,0,4,0,129
+139,Alejandro Valverde (ESP),78,13,0,13,0,121
+51,Nacer Bouhanni (FRA),0,5,1,0,0,73
+52,William Bonnet (FRA),6,5,1,0,0,72
+53,Murilo Fischer (BRA),1,5,0,1,1,75
+54,Pierrick Fédrigo (FRA),0,5,0,0,0,74
+55,Alexandre Geniez (FRA),8,5,0,0,0,76
+56,Arnold Jeannesson (FRA),10,5,0,0,0,77
+57,Thibaut Pinot (FRA),0,5,1,0,0,71
+58,Jérémy Roy (FRA),3,5,0,0,0,78
+59,Arthur Vichot (FRA),6,5,0,0,0,79
+41,Marcel Kittel (GER),124,4,0,28,20,197
+42,Roy Curvers (NED),0,4,0,0,0,192
+43,John Degenkolb (GER),15,4,0,0,0,191
+44,Tom Dumoulin (NED),7,4,0,0,0,194
+45,Koen de Kort (NED),0,4,0,0,0,193
+46,Albert Timmer (NED),0,4,0,0,0,198
+47,Tom Veelers (NED),0,4,1,0,0,199
+48,Simon Geschke (GER),4,4,0,0,0,196
+49,Johannes Fröhlinger (GER),0,4,0,0,0,195
+181,Matteo Bono (ITA),0,18,1,0,0,142
+182,Damiano Cunego (ITA),0,18,0,0,0,141
+183,Davide Cimolai (ITA),8,18,0,0,0,143
+184,Elia Favilli (ITA),0,18,0,0,0,144
+185,Roberto Ferrari (ITA),20,18,0,6,6,145
+186,Adriano Malori (ITA),0,18,1,0,0,146
+187,Manuele Mori (ITA),2,18,0,0,0,147
+188,Przemyslaw Niemiec (POL),0,18,0,0,0,148
+189,Josè Rodolfo Serpa Perez (COL),0,18,1,0,0,149
+221,Anthony Delaplace (FRA),0,22,0,0,0,212
+222,Julien El Farès (FRA),0,22,0,0,0,213
+223,Brice Feillu (FRA),0,22,0,0,0,211
+224,Jonathan Hivert (FRA),0,22,0,0,0,214
+225,Cyril Lemoine (FRA),2,22,0,0,0,215
+226,Jean-Marc Marino (FRA),0,22,0,0,0,216
+227,Julien Simon (FRA),21,22,0,0,0,218
+228,Maxime Mederel (FRA),0,22,0,0,0,217
+229,Alexis Vuillermoz (FRA),0,22,0,0,0,219
+31,Edvald Boasson Hagen (NOR),47,3,1,0,0,2
+32,Christopher Froome (GBR),330,3,0,60,0,1
+33,Peter Kennaugh (GBR),0,3,0,0,0,3
+34,Vasil Kiryienka (BLR),0,3,1,0,0,4
+35,David López (ESP),0,3,0,0,0,5
+36,Richie Porte (AUS),54,3,0,5,0,6
+37,Kanstantsin Siutsou (BLR),0,3,0,0,0,8
+38,Ian Stannard (GBR),0,3,0,0,0,7
+39,Geraint Thomas (GBR),0,3,0,0,0,9
+191,Daniele Bennati (ITA),14,19,0,2,2,92
+192,Alberto Contador (ESP),113,19,0,22,0,91
+193,Jesus Hernandez (ESP),2,19,0,0,0,93
+194,Roman Kreuziger (CZE),82,19,0,18,0,94
+195,Benjamin Noval (ESP),0,19,1,0,0,95
+196,Sergio Paulinho (POR),0,19,0,0,0,96
+197,Nicolas Roche (IRL),0,19,0,0,0,97
+198,Michael Rogers (AUS),6,19,0,5,0,98
+199,Matteo Tosatto (ITA),0,19,0,0,0,99
+81,Igor Antón (ESP),1,8,0,0,0,111
+82,Mikel Astarloza (ESP),4,8,0,0,0,112
+83,Gorka Izagirre (ESP),1,8,1,0,0,113
+84,Jon Izagirre (ESP),0,8,0,0,0,114
+85,Juan José Lobato (ESP),17,8,0,0,0,115
+86,Mikel Nieve (ESP),37,8,0,14,0,116
+87,Juanjo Oroz (ESP),0,8,0,0,0,117
+88,Rubén Pérez (ESP),0,8,0,0,0,118
+89,Romain Sicard (FRA),0,8,0,0,0,119
+21,Jack Bauer (NZL),0,2,1,0,0,172
+22,Tom Danielson (USA),0,2,0,0,0,173
+23,Rohan Dennis (AUS),0,2,1,0,0,174
+24,Ryder Hesjedal (CAN),2,2,0,2,0,171
+25,Dan Martin (IRL),20,2,0,0,0,175
+26,David Millar (GBR),20,2,0,0,0,176
+27,Ramunas Navardauskas (LTH),4,2,0,0,0,177
+28,Andrew Talansky (USA),28,2,0,11,0,178
+29,Christian Vande Velde (USA),0,2,1,0,0,179
+101,Thomas Voeckler (FRA),0,10,0,0,0,59
+102,Pierre Rolland (FRA),76,10,0,11,0,51
+103,Cyril Gautier (FRA),2,10,0,0,0,54
+104,David Veilleux (CAN),0,10,0,0,0,58
+105,Yukiya Arashiro (JPN),0,10,0,0,0,52
+106,Davide Malacarne (ITA),0,10,0,0,0,56
+107,Jérôme Cousin (FRA),0,10,0,0,0,53
+108,Kevin Reza (FRA),7,10,0,4,4,57
+109,Yohann Gene (FRA),6,10,0,3,3,55
+11,Assan Bazayev (KAZ),0,1,0,0,0,62
+12,Janez Brajkovic (SLO),0,1,1,0,0,61
+13,Jakob Fuglsang (DEN),45,1,0,14,0,63
+14,Enrico Gasparotto (ITA),0,1,0,0,0,64
+15,Francesco Gavazzi (ITA),13,1,0,0,0,65
+16,Andrey Kashechkin (KAZ),0,1,1,0,0,66
+17,Fredrik Kessiakoff (SWE),0,1,1,0,0,67
+18,Alexey Lutsenko (KAZ),0,1,1,0,0,68
+19,Dmitri Muravyev (KAZ),0,1,0,0,0,69
+71,Romain Bardet (FRA),6,7,0,6,0,82
+72,Maxime Bouet (FRA),3,7,1,0,0,83
+73,Samuel Dumoulin (FRA),11,7,0,0,0,84
+74,Hubert Dupont (FRA),0,7,0,0,0,85
+75,John Gadret (FRA),3,7,0,0,0,86
+76,Blel Kadri (FRA),12,7,0,0,0,87
+77,Jean-Christophe Péraud (FRA),1,7,1,0,0,81
+78,Sébastien Minard (FRA),0,7,0,0,0,88
+79,Christophe Riblon (FRA),43,7,0,7,0,89
