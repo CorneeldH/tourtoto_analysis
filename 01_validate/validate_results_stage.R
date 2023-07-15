@@ -10,21 +10,21 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-files_stage_results_chr <- c(
+files_results_stage_chr <- c(
   ## Aanmeldingen
   list.files(
-    "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/00_raw",
+    "data/00_raw",
     full.names = TRUE,
     ## Een reguliere expressie waarin gezocht wordt naar:
     pattern = "renner_etappes"
   )
 )
 
-years_stage_results_int <- as.numeric(str_extract(files_stage_results_chr, "([0-9]+)(?=[^/]*$)"))
+years_results_stage_int <- as.numeric(str_extract(files_results_stage_chr, "([0-9]+)(?=[^/]*$)"))
 
-stage_results_df <- files_stage_results_chr %>%
+results_stage_df <- files_results_stage_chr %>%
   map(read_csv) %>%
-  map2(years_stage_results_int, ~ mutate(.x, year_int = .y) %>%
+  map2(years_results_stage_int, ~ mutate(.x, year_int = .y) %>%
          mutate(across(starts_with("Stand"), ~as.integer(.)))) %>%
   reduce(bind_rows)
 
@@ -40,8 +40,8 @@ stage_results_df <- files_stage_results_chr %>%
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 write_rds(
-  stage_results_df,
-  "C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/01_validated/RID_stage_results.rds"
+  results_stage_df,
+  "data/01_validated/RID_results_stage.rds"
 )
 
 clear_script_objects()
