@@ -1,5 +1,5 @@
 variable;value
-DATA_BASE_DIR;C:/Users/user/Dropbox/Programming/Tourtoto/overig/data/
+DATA_BASE_DIR;data/
 DATA_RAW_DIR;00_raw/
 DATA_VALIDATED_DIR;01_validated/
 DATA_MANIPULATED_DIR;02_manipulated/
