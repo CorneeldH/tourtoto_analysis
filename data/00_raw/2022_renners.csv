@@ -1,0 +1,177 @@
+rennerID,Naam,Punten,ploegID,Uitgevallen,pnt_laatst,pnt_dag,pnt_geel,pnt_bol,pnt_groen,pnt_wit,pnt_eind,RN,Land,gekozen,gekozen_percentage,zeldzaam
+31751,"JUNGELS Bob",93,4,0,12,0,12,0,0,0,12,36,Luxembourg,2,2,0
+51127,"COSNEFROY Benoit",0,4,0,0,0,0,0,0,0,0,34,France,4,5,0
+37571,"BOUCHARD Geoffrey",0,4,1,0,0,0,0,0,0,0,32,France,2,2,0
+41080,"NAESEN Oliver",0,4,1,0,0,0,0,0,0,0,37,Belgium,1,1,0
+50087,"O'CONNOR Ben Alexander",0,4,1,0,0,0,0,0,0,0,31,Australia,40,49,0
+49211,"PARET-PEINTRE Aurélien",0,4,1,0,0,0,0,0,0,0,38,France,2,2,0
+23827,"ROWE Luke",0,3,0,0,0,0,0,0,0,0,26,"United Kingdom",1,1,0
+28217,"DILLIER Silvan",0,11,0,0,0,0,0,0,0,0,102,Switzerland,1,1,0
+21539,"CASTROVIEJO NICOLAS Jonathan",80,3,0,0,0,0,0,0,0,0,23,"Basque Country",0,0,0
+54348,"PHILIPSEN Jasper",134,11,0,40,25,0,0,15,0,15,105,Belgium,41,51,0
+50664,"POWLESS Neilson",110,15,0,14,0,10,4,0,0,14,147,"United States",0,0,0
+43684,"VAN DER POEL Mathieu",10,11,1,0,0,0,0,0,0,0,101,Netherlands,67,83,0
+42181,"DOULL Owain",0,15,0,0,0,0,0,0,0,0,145,"United Kingdom",0,0,0
+36193,"LUTSENKO Alexey",85,14,0,19,0,19,0,0,0,19,131,Kazahkstan,2,2,0
+48180,"MOSCON Gianni",0,14,1,0,0,0,0,0,0,0,136,Italy,0,0,0
+48263,"BONNAMOUR Franck",0,22,0,0,0,0,0,0,0,0,211,France,2,2,0
+43066,"GOUGEARD Alexis",0,22,0,0,0,0,0,0,0,0,213,France,0,0,0
+28203,"PEREZ Anthony",0,8,0,0,0,0,0,0,0,0,76,France,0,0,0
+54446,"MOZZATO Luca",51,22,0,0,0,0,0,0,0,0,216,Italy,2,2,0
+18662,"ROLLAND Pierre",0,22,0,0,0,0,0,0,0,0,217,France,2,2,0
+44015,"SCHÖNBERGER Sebastian",0,22,0,0,0,0,0,0,0,0,218,Austria,3,4,0
+20914,"CARUSO Damiano",3,9,1,0,0,0,0,0,0,0,82,Italy,5,6,0
+44802,"HAIG Jack",0,9,1,0,0,0,0,0,0,0,81,Australia,9,11,0
+43812,"MOHORIC Matej",0,9,0,0,0,0,0,0,0,0,84,Slovenia,12,15,0
+35418,"TEUNS Dylan",47,9,0,2,0,2,0,0,0,2,86,Belgium,4,5,0
+55337,"WRIGHT Fred",114,9,0,6,4,0,0,0,2,2,88,"United Kingdom",1,1,0
+23920,"HALLER Marco",0,5,0,0,0,0,0,0,0,0,43,Austria,0,0,0
+41504,"GROßSCHARTNER Felix",18,5,0,0,0,0,0,0,0,0,42,Austria,3,4,0
+24463,"KONRAD Patrick",45,5,0,5,0,5,0,0,0,5,45,Austria,0,0,0
+28574,"VAN KEIRSBULCK Guillaume",0,11,0,0,0,0,0,0,0,0,108,Belgium,0,0,0
+43890,"POLITT Nils",0,5,0,0,0,0,0,0,0,0,46,Germany,3,4,0
+43844,"SCHACHMANN Maximilian",6,5,0,0,0,0,0,0,0,0,47,Germany,2,2,0
+41481,"VAN POPPEL Danny",70,5,0,12,12,0,0,0,0,0,48,Netherlands,10,12,0
+49264,"VLASOV Aleksander",54,5,0,32,0,32,0,0,0,32,41,Russia,36,44,0
+56127,"VERMAERKE Kevin",0,12,1,0,0,0,0,0,0,0,118,"United States",1,1,0
+18656,"GESCHKE Simon",44,8,0,20,0,0,20,0,0,20,73,Germany,0,0,0
+223,"LEMOINE Cyril",0,22,0,0,0,0,0,0,0,0,215,France,1,1,0
+22689,"IZAGIRRE INSAUSTI Ion",0,8,0,0,0,0,0,0,0,0,74,"Basque Country",0,0,0
+54114,"LAFAY Victor",0,8,1,0,0,0,0,0,0,0,75,France,6,7,0
+42839,"MARTIN Guillaume",0,8,1,0,0,0,0,0,0,0,71,France,3,4,0
+48269,"LECROQ Jérémy",56,22,0,32,32,0,0,0,0,0,214,France,1,1,0
+49970,"THOMAS Benjamin",39,8,0,0,0,0,0,0,0,0,77,France,4,5,0
+42314,"WALSCHEID Max",0,8,1,0,0,0,0,0,0,0,78,Germany,1,1,0
+43670,"BETTIOL Alberto",90,15,0,0,0,0,0,0,0,0,143,Italy,4,5,0
+53509,"BISSEGGER Stefan",0,15,0,0,0,0,0,0,0,0,144,Switzerland,7,9,0
+30202,"SBARAGLI Kristian",0,11,0,0,0,0,0,0,0,0,107,Italy,0,0,0
+44824,"GUERREIRO Ruben",0,15,1,0,0,0,0,0,0,0,142,Portugal,13,16,0
+21520,"JUUL JENSEN Christopher",0,21,0,0,0,0,0,0,0,0,206,Denmark,1,1,0
+53377,"RUTSCH Jonas",0,15,0,0,0,0,0,0,0,0,148,Germany,0,0,0
+15882,"URAN URAN Rigoberto",0,15,0,0,0,0,0,0,0,0,141,Colombia,7,9,0
+27367,"DUCHESNE Antoine",0,10,0,0,0,0,0,0,0,0,92,Canada,2,2,0
+51700,"GAUDU David",183,10,0,36,0,36,0,0,0,36,91,France,7,9,0
+53159,"GENIETS Kevin",4,10,0,4,0,0,0,0,4,4,93,Luxembourg,2,2,0
+43607,"KÜNG Stefan",24,10,0,0,0,0,0,0,0,0,94,Switzerland,11,14,0
+31945,"LE GAC Olivier",0,10,0,0,0,0,0,0,0,0,95,France,0,0,0
+49214,"MADOUAS Valentin",94,10,0,14,0,14,0,0,0,14,96,France,0,0,0
+23898,"PINOT Thibaut",42,10,0,14,0,6,8,0,0,14,97,France,31,38,0
+52433,"STORER Michael",28,10,0,8,0,0,0,0,8,8,98,Australia,10,12,0
+50592,"GANNA Filippo",60,3,0,0,0,0,0,0,0,0,24,Italy,19,23,0
+47221,"PLANCKAERT Edward",0,11,0,0,0,0,0,0,0,0,106,Belgium,0,0,0
+54297,"BARTHE Cyril",0,22,0,0,0,0,0,0,0,0,212,France,1,1,0
+49848,"MARTINEZ POVEDA Daniel Felipe",20,3,0,0,0,0,0,0,0,0,22,Colombia,21,26,0
+54405,"PIDCOCK Thomas",100,3,0,24,0,4,0,0,20,24,25,"United Kingdom",17,21,0
+54300,"BURGAUDEAU Mathieu",6,19,0,0,0,0,0,0,0,0,184,France,2,2,0
+7234,"THOMAS Geraint",112,3,0,42,0,40,1,1,0,42,21,Wales,27,33,0
+23816,"VAN BAARLE Dylan",30,3,0,0,0,0,0,0,0,0,27,Netherlands,6,7,0
+50165,"GOOSSENS Kobe",0,13,0,0,0,0,0,0,0,0,123,Belgium,1,1,0
+24822,"KRIEGER Alexander",0,11,0,0,0,0,0,0,0,0,104,Germany,1,1,0
+16120,"KRISTOFF Alexander",54,13,0,30,30,0,0,0,0,0,121,Norway,11,14,0
+36097,"MEINTJES Louis",97,13,0,28,0,22,6,0,0,28,124,"South Africa",3,4,0
+25910,"PASQUALON Andrea",12,13,0,0,0,0,0,0,0,0,125,Italy,0,0,0
+22724,"PETIT Adrien",0,13,0,0,0,0,0,0,0,0,126,France,0,0,0
+41872,"VAN DER HOORN Taco",40,13,0,0,0,0,0,0,0,0,127,Netherlands,9,11,0
+52339,"ZIMMERMANN Georg",38,13,0,6,0,0,0,0,6,6,128,Germany,0,0,0
+22916,"FROOME Christopher",45,20,1,0,0,0,0,0,0,0,191,"United Kingdom",3,4,0
+7124,"FUGLSANG Jakob",16,20,1,0,0,0,0,0,0,0,194,Denmark,8,10,0
+48458,"RIABUSHENKO Aliaksandr",0,14,0,0,0,0,0,0,0,0,132,Belarus,0,0,0
+30154,"HOULE Hugo",120,20,0,0,0,0,0,0,0,0,196,Canada,2,2,0
+48268,"HOFSTETTER Hugo",45,16,0,6,6,0,0,0,0,0,155,France,2,2,0
+43171,"WOODS Michael",45,20,1,0,0,0,0,0,0,0,198,Canada,7,9,0
+20522,"BOUET Maxime",0,16,0,0,0,0,0,0,0,0,153,France,1,1,0
+43736,"BENOOT Tiesj",0,2,0,0,0,0,0,0,0,0,12,Belgium,4,5,0
+16260,"KRUIJSWIJK Steven",4,2,1,0,0,0,0,0,0,0,13,Netherlands,12,15,0
+51074,"KUSS Sepp",24,2,0,3,0,3,0,0,0,3,14,"United States",4,5,0
+42312,"LAPORTE Christophe",156,2,0,12,0,0,0,12,0,12,15,France,4,5,0
+43700,"ROGLIC Primoz",21,2,1,0,0,0,0,0,0,0,11,Slovenia,65,80,0
+43705,"VAN AERT Wout",211,2,0,35,0,0,10,25,0,35,16,Belgium,74,91,0
+47316,"VAN HOOYDONCK Nathan",0,2,1,0,0,0,0,0,0,0,17,Belgium,1,1,0
+53052,"VINGEGAARD RASMUSSEN Jonas",225,2,0,83,0,50,25,8,0,83,18,Denmark,64,79,0
+43668,"EWAN Caleb",7,17,0,4,4,0,0,0,0,0,161,Australia,35,43,0
+36437,"FRISON Frederik",0,17,0,0,0,0,0,0,0,0,162,Belgium,1,1,0
+273,"GILBERT Philippe",0,17,0,0,0,0,0,0,0,0,163,Belgium,3,4,0
+22001,"JANSE VAN RENSBURG Reinardt",0,17,0,0,0,0,0,0,0,0,164,"South Africa",1,1,0
+53359,"KRON Andreas Lorentz",36,17,0,0,0,0,0,0,0,0,165,Denmark,2,2,0
+55616,"VAN MOER Brent",0,17,0,0,0,0,0,0,0,0,166,Belgium,3,4,0
+55012,"VERMEERSCH Florian",0,17,0,0,0,0,0,0,0,0,167,Belgium,1,1,0
+23418,"WELLENS Tim",0,17,1,0,0,0,0,0,0,0,168,Belgium,2,2,0
+112,"ERVITI Imanol",0,7,1,0,0,0,0,0,0,0,62,Spain,1,1,0
+21841,"IZAGIRRE INSAUSTI Gorka",0,7,1,0,0,0,0,0,0,0,63,"Basque Country",1,1,0
+54879,"JORGENSON Matteo",148,7,0,12,0,0,0,0,12,12,64,"United States",1,1,0
+48301,"MAS NICOLAU Enric",36,7,1,0,0,0,0,0,0,0,61,Spain,7,9,0
+24311,"OLIVEIRA Nelson Filipe Santos Simoes",0,7,0,0,0,0,0,0,0,0,66,Portugal,3,4,0
+33754,"VERONA QUINTANILLA Carlos",60,7,0,0,0,0,0,0,0,0,68,Spain,0,0,0
+20554,"ZEITS Andrey",0,14,0,0,0,0,0,0,0,0,138,Kazahkstan,0,0,0
+49918,"ASGREEN Kasper",0,6,1,0,0,0,0,0,0,0,52,Denmark,7,9,0
+30410,"CATTANEO Mattia",18,6,0,0,0,0,0,0,0,0,54,Italy,2,2,0
+41814,"GOGL Michael",0,11,1,0,0,0,0,0,0,0,103,Austria,0,0,0
+48304,"VELASCO Simone",0,14,0,0,0,0,0,0,0,0,137,Italy,0,0,0
+49777,"JAKOBSEN Fabio",43,6,0,6,0,0,0,6,0,6,51,Netherlands,58,72,0
+7242,"MORKOV Michael",0,6,1,0,0,0,0,0,0,0,57,Denmark,2,2,0
+23924,"BARGUIL Warren",3,16,1,0,0,0,0,0,0,0,152,France,5,6,0
+41845,"CAPIOT Amaury",32,16,0,0,0,0,0,0,0,0,154,Belgium,1,1,0
+57057,"LOUVEL Matis",0,16,0,0,0,0,0,0,0,0,156,France,2,2,0
+25572,"OWSIAN Lukasz",0,16,0,0,0,0,0,0,0,0,157,Poland,0,0,0
+23627,"QUINTANA ROJAS Nairo Alexander",92,16,0,28,0,28,0,0,0,28,151,Colombia,9,11,0
+16787,"GRUZDEV Dmitriy",0,14,0,0,0,0,0,0,0,0,135,Kazahkstan,0,0,0
+53828,"SWIFT Connor",0,16,0,0,0,0,0,0,0,0,158,"United Kingdom",0,0,0
+23942,"DURBRIDGE Luke",0,21,1,0,0,0,0,0,0,0,203,Australia,0,0,0
+41474,"GROENEWEGEN Dylan",63,21,0,20,20,0,0,0,0,0,204,Netherlands,34,42,0
+23913,"MATTHEWS Michael",138,21,0,4,0,0,0,4,0,4,201,Australia,11,14,0
+24718,"MEZGEC Luka",8,21,0,0,0,0,0,0,0,0,207,Slovenia,0,0,0
+30373,"LAMPAERT Yves",100,6,0,0,0,0,0,0,0,0,56,Belgium,1,1,0
+53049,"HONORÉ Mikkel",0,6,0,0,0,0,0,0,0,0,55,Denmark,2,2,0
+25394,"BARDET Romain",53,12,0,25,0,25,0,0,0,25,111,France,28,35,0
+21591,"DEGENKOLB John",0,12,0,0,0,0,0,0,0,0,113,Germany,3,4,0
+53379,"EEKHOFF Nils",0,12,0,0,0,0,0,0,0,0,114,Netherlands,2,2,0
+55581,"BAGIOLI Andrea",0,6,0,0,0,0,0,0,0,0,53,Italy,2,2,0
+22888,"FELLINE Fabio",0,14,1,0,0,0,0,0,0,0,134,Italy,1,1,0
+1360,"BODNAR Maciej",0,19,0,0,0,0,0,0,0,0,183,Poland,0,0,0
+37581,"LATOUR Pierre",2,19,0,2,0,0,2,0,0,2,185,France,1,1,0
+20576,"OSS Daniel",0,19,1,0,0,0,0,0,0,0,186,Italy,0,0,0
+23647,"SAGAN Peter",106,19,0,22,20,0,0,2,0,2,181,Slovakia,21,26,0
+44819,"TURGIS Anthony",0,19,0,0,0,0,0,0,0,0,187,France,1,1,0
+22476,"VUILLERMOZ Alexis",0,19,1,0,0,0,0,0,0,0,188,France,1,1,0
+44877,"CICCONE Giulio",18,18,0,15,0,0,15,0,0,15,172,Italy,7,9,0
+18657,"MOLLEMA Bauke",20,18,0,0,0,0,0,0,0,0,175,Netherlands,20,25,0
+47296,"PEDERSEN Mads",73,18,0,10,0,0,0,10,0,10,171,Denmark,30,37,0
+57599,"SIMMONS Quinn",0,18,0,0,0,0,0,0,0,0,176,"United States",3,4,0
+23283,"STUYVEN Jasper",60,18,0,36,36,0,0,0,0,0,178,Belgium,3,4,0
+28052,"BENNETT George",0,1,1,0,0,0,0,0,0,0,2,"New Zealand",2,2,0
+53340,"BJERG Mikkel",0,1,0,0,0,0,0,0,0,0,3,Denmark,1,1,0
+35627,"DOMBROWSKI Joseph Lloyd",0,14,0,0,0,0,0,0,0,0,133,"United States",1,1,0
+23906,"MAJKA Rafal",0,1,1,0,0,0,0,0,0,0,5,Poland,5,6,0
+52102,"MCNULTY Brandon",46,1,0,16,0,1,0,0,15,16,6,"United States",12,15,0
+53443,"POGACAR Tadej",284,1,0,102,0,45,12,20,25,102,1,Slovenia,69,85,0
+47288,"SOLER GIMENEZ Marc",36,1,1,0,0,0,0,0,0,0,7,Spain,2,2,0
+41651,"CORT NIELSEN Magnus",105,15,1,0,0,0,0,0,0,0,146,Denmark,2,2,0
+7538,"CHEREL Mickaël",0,4,1,0,0,0,0,0,0,0,33,France,2,2,0
+54332,"DEWULF Stan",1,4,0,1,0,0,0,0,1,1,35,Belgium,1,1,0
+27957,"GRADEK Kamil",0,9,0,0,0,0,0,0,0,0,83,Poland,1,1,0
+153,"SANCHEZ GIL Luis Leon",68,9,0,8,0,8,0,0,0,8,85,Spain,1,1,0
+23687,"TRATNIK Jan",4,9,0,0,0,0,0,0,0,0,87,Slovenia,0,0,0
+49219,"KÄMNA Lennard",34,5,1,0,0,0,0,0,0,0,44,Germany,17,21,0
+37165,"YATES Adam",44,3,0,16,0,16,0,0,0,16,28,"United Kingdom",16,20,0
+6810,"CLARKE Simon",100,20,1,0,0,0,0,0,0,0,193,Australia,0,0,0
+26846,"PERICHON Pierre-Luc",0,8,0,0,0,0,0,0,0,0,72,France,0,0,0
+44217,"NEILANDS Krists",0,20,0,0,0,0,0,0,0,0,197,Latvia,0,0,0
+23894,"BAUER Jack",0,21,0,0,0,0,0,0,0,0,202,"New Zealand",2,2,0
+43692,"JANSEN Amund Grøndahl",0,21,0,0,0,0,0,0,0,0,205,Norway,1,1,0
+44976,"SCHULTZ Nicholas",80,21,0,0,0,0,0,0,0,0,208,Australia,0,0,0
+55599,"DAINESE Alberto",63,12,0,0,0,0,0,0,0,0,112,Italy,3,4,0
+50073,"HAMILTON Chris",0,12,0,0,0,0,0,0,0,0,115,Australia,1,1,0
+54322,"LEKNESSUND Andreas ",22,12,0,10,0,0,0,0,10,10,116,Norway,5,6,0
+41480,"TUSVELD Martijn",0,12,0,0,0,0,0,0,0,0,117,Netherlands,0,0,0
+20585,"GALLOPIN Tony",0,18,0,0,0,0,0,0,0,0,173,France,2,2,0
+36802,"KIRSCH Alex",0,18,1,0,0,0,0,0,0,0,174,Luxembourg,0,0,0
+27365,"SKUJINS Toms",0,18,0,0,0,0,0,0,0,0,177,Latvia,1,1,0
+23556,"LAENGEN Vegard Stake",0,1,1,0,0,0,0,0,0,0,4,Norway,0,0,0
+29756,"BYSTROM Sven Erik",0,13,0,0,0,0,0,0,0,0,122,Norway,2,2,0
+44124,"MÜHLBERGER Gregor",0,7,0,0,0,0,0,0,0,0,65,Austria,0,0,0
+24756,"TORRES BARCELO Albert",0,7,0,0,0,0,0,0,0,0,67,Spain,1,1,0
+31116,"SENECHAL Florian",66,6,0,0,0,0,0,0,0,0,58,France,2,2,0
+16265,"BOASSON HAGEN Edvald",60,19,0,0,0,0,0,0,0,0,182,Norway,1,1,0
+53508,"HIRSCHI Marc",0,1,0,0,0,0,0,0,0,0,8,Switzerland,2,2,0
+23928,"BOIVIN Guillaume",0,20,1,0,0,0,0,0,0,0,192,Canada,2,2,0
+54279,"NIV Guy",0,20,0,0,0,0,0,0,0,0,195,Israel,0,0,0
