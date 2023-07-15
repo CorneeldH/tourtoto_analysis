@@ -9,6 +9,26 @@ editor: visual
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
+#### Datamodel
+
+-   2011 - 2017 laatste jaren met truien punten per dag
+
+-   2011 - 2016 ploegen
+
+-   2018 / 2019 straight years
+
+-   2020 - nu horses
+
+    -   2020 / 2021 - schema 1
+
+    -   2022 - nu schema 2
+
+-   Tot aan 2017 geen punten / stand getallen in database
+
+    -   Met huidige data kan dit ook niet gecreëerd worden (daarvoor zijn ploegen en truien scores nodig)
+
+-   
+
 ### Load
 
 -   [x] Load renners dynamically based on folder. Add year from file
@@ -17,7 +37,11 @@ Quarto enables you to weave together content and executable code into a finished
 
 -   [ ] Eerdere jaren inladen
 
-    -   [ ] spelregel wijzigingen
+    -   [ ] riders heeft verschillende kolommen / namen voor kolommen door jaren heen
+
+    -   [ ] participants heeft ontbrekende data-punten in eerdere jaren
+
+        -   [ ] fixen door door meer kolommen in te laden?
 
 ### Manipulate
 
@@ -26,8 +50,19 @@ Quarto enables you to weave together content and executable code into a finished
 -   [x] Omklappen results_stage + mapping table voor punten
 -   [x] In manipulate riders horse factor berekenen, if gekozen --\> grey / etc / etc, zie mapping_DEM_leeftijd_cat
 -   [x] Daarna if grey \* 2 etc etc
--   [ ] Ranking per jaar obv aantal deelnemers
--   [ ] 
+-   [ ] toevoegen aan riders en parcipants
+    -   [ ] horse_year
+    -   [ ] trui_year
+    -   [ ] simple_years
+-   [x] toevoegen aan participants
+    -   [x] avg_ranking all years
+    -   [x] Ranking per jaar obv aantal deelnemers
+        -   [x] avg_ranking_horse_year etc
+        -   [x] avg_ranking temp_klassement years
+        -   [x] avg_ranking simple years
+        -   [x] for all this: average without current year
+-   [ ] toevoegen aan riders
+    -   [ ] gekozen / gekozenper
 
 ### Join
 
