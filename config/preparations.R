@@ -111,7 +111,8 @@ packages_vusaverse <-c(
 ## TODO: Run code for cran and github packages update
 ## Include config, special case since it should be loaded
 # purrr::walk(
-#   c(packages_cran_with_version, config),
+#   c(packages_cran_with_version,
+#     packages_github_with_repo),
 #   ~renv::update(.)
 #   )
 
@@ -131,14 +132,10 @@ packages_cran <- purrr::map_chr(
 packages <- c(packages_base, packages_cran, packages_vusaverse) #, packages_github)
 purrr::walk(packages, ~library(., character.only = TRUE))
 
-## Add custom function for retrieving packages for renv (only the above)
-options(renv.snapshot.filter = function(project) {
-    return(packages)
-})
 
 ## Update renv.lock with argument packages to also get dependencies
-## TODO: When updating all packages enable prompt
-#renv::snapshot(packages = packages, prompt = FALSE)
+##' *INFO* Add config now, to avoid loading it with library, see: https://github.com/rstudio/config/issues/44
+renv::snapshot(packages = c(packages, "config"), prompt = FALSE)
 
 function_files <- list.files("config/repo_functions", full.names = TRUE)
 
