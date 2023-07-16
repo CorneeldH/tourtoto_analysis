@@ -11,6 +11,12 @@ packages_base <- c(
 packages_cran_with_version <- c(
     ## Reverse order of importance
 
+    ## TODO see in download what is really needed
+    ## database
+    "DBI",
+    "RMySQL",
+    "dbplyr",
+
     ## specifiek voor modellen
     "poissonreg",
     #"rstanarm", ## Interessant komt uit Statistical Rehtinking (McElreath), installeert wel veel andere modellen
@@ -130,13 +136,11 @@ options(renv.snapshot.filter = function(project) {
     return(packages)
 })
 
-## Update renv.lock
-## NOTE: This is done without prompt in order to do it at start-up
+## Update renv.lock with argument packages to also get dependencies
 ## TODO: When updating all packages enable prompt
-#renv::snapshot(type = "custom", prompt = FALSE)
+#renv::snapshot(packages = packages, prompt = FALSE)
 
-
-function_files <- list.files("repo_functions", full.names = TRUE)
+function_files <- list.files("config/repo_functions", full.names = TRUE)
 
 walk(function_files, source)
 
