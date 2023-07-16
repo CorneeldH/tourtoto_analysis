@@ -27,6 +27,8 @@ Quarto enables you to weave together content and executable code into a finished
 
     -   Met huidige data kan dit ook niet gecreëerd worden (daarvoor zijn ploegen en truien scores nodig)
 
+-   Vanaf 2013 niet meer etappe waarin is uitgevallen
+
 -   
 
 ### Load
@@ -35,9 +37,9 @@ Quarto enables you to weave together content and executable code into a finished
 
 -   [x] Load deelnemers idem
 
--   [ ] Eerdere jaren inladen
+-   [x] Eerdere jaren inladen
 
-    -   [ ] riders heeft verschillende kolommen / namen voor kolommen door jaren heen
+    -   [x] riders heeft verschillende kolommen / namen voor kolommen door jaren heen
 
     -   [ ] participants heeft ontbrekende data-punten in eerdere jaren
 
@@ -50,10 +52,10 @@ Quarto enables you to weave together content and executable code into a finished
 -   [x] Omklappen results_stage + mapping table voor punten
 -   [x] In manipulate riders horse factor berekenen, if gekozen --\> grey / etc / etc, zie mapping_DEM_leeftijd_cat
 -   [x] Daarna if grey \* 2 etc etc
--   [ ] toevoegen aan riders en parcipants
-    -   [ ] horse_year
-    -   [ ] trui_year
-    -   [ ] simple_years
+-   [x] toevoegen aan riders en parcipants
+    -   [x] horse_year
+    -   [x] trui_year
+    -   [x] simple_years
 -   [x] toevoegen aan participants
     -   [x] avg_ranking all years
     -   [x] Ranking per jaar obv aantal deelnemers
@@ -61,8 +63,7 @@ Quarto enables you to weave together content and executable code into a finished
         -   [x] avg_ranking temp_klassement years
         -   [x] avg_ranking simple years
         -   [x] for all this: average without current year
--   [ ] toevoegen aan riders
-    -   [ ] gekozen / gekozenper
+    -   [ ] dagwinsten_aantal
 
 ### Join
 
@@ -87,7 +88,7 @@ Quarto enables you to weave together content and executable code into a finished
 
     -   obv originaliteit team, aantallen van diverse horses en interactie tussen horses en verwachte ranking
 
-    -   
+-   uitgevallen berekenen per moment in tour (3 uitvallers betekent na dag 7 1 uitvaller tellen
 
 ```         
 - [x] Write the press release - 
