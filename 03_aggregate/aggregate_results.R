@@ -10,7 +10,6 @@
 ## 1. LOAD ####
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-riders_df <- read_rds("data/02_manipulated/RID_riders.rds")
 results_stage_df <- read_rds("data/02_manipulated/RID_results_stage.rds")
 results_end_df <- read_rds("data/02_manipulated/RID_results_end.rds")
 
