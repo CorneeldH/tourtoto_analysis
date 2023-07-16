@@ -18,7 +18,7 @@ participants_df <- read_rds("data/01_validated/PAR_participants.rds")
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-participants_df <- participants_df %>%
+participants_df2 <- participants_df %>%
   ## TODO Ugly fix: Names mapping table van maken oid
   mutate(Eigenaar = if_else(Eigenaar == "Alexander" & str_detect(email, "wisse"), "Alexander Wisse", Eigenaar),
          Eigenaar = if_else(Eigenaar == "Yvonne", "Yvonne Rouwhorst", Eigenaar)) %>%
@@ -36,7 +36,12 @@ participants_df <- participants_df %>%
   ## add year category
   mutate(year_horse = if_else(year_int >= 2020, TRUE, FALSE),
          year_simple = if_else(year_int %in% c(2018, 2019), TRUE, FALSE),
-         year_trui = if_else(year_int <= 2017, TRUE, FALSE)) %>%
+         year_trui = if_else(year_int <= 2017, TRUE, FALSE),
+         year_type = case_when(
+           year_int >= 2020 ~ "horses",
+           year_int %in% c(2018, 2019) ~ "simple",
+           year_int <= 2017 ~ "trui"
+         )) %>%
   ## add ranking
   group_by(year_int) %>%
   arrange(desc(Punten)) %>%
@@ -45,21 +50,36 @@ participants_df <- participants_df %>%
   group_by(Eigenaar) %>%
   arrange(year_int) %>%
   mutate(ranking_average = mean(ranking),
+         ranking_variance = var(ranking),
          ranking_average_without_current = (sum(ranking) - ranking) / (n() - 1),
          ranking_average_historical = cumsum(ifelse(is.na(ranking), 0, ranking)) / cumsum(!is.na(ranking)),
-         ranking_average_horse = sum(ranking * year_horse) / sum(year_horse),
-         ranking_average_trui = sum(ranking * year_trui) / sum(year_trui),
-         ranking_average_simple = sum(ranking * year_simple) / sum(year_simple),
-         ranking_average_horse_without_current = (sum(ranking * year_horse) - (ranking * year_horse)) / (sum(year_horse) - year_horse),
-         ranking_average_trui_without_current = (sum(ranking * year_trui) - (ranking * year_trui)) / (sum(year_trui) - year_trui),
-         ranking_average_simple_without_current = (sum(ranking * year_simple) - (ranking * year_simple)) / (sum(year_simple) - year_simple),
          participation_number = row_number(),
          participation_first_time = participation_number == 1
-  ) %>% ungroup()
+  ) %>%
+  ungroup() %>%
+  group_by(Eigenaar, year_type) %>%
+  mutate(ranking_average_type = mean(ranking),
+         ranking_average_type_without_current = (sum(ranking) - ranking) / (n() -1),
+  ) %>%
+  ungroup() %>%
+  mutate(ranking_year_compare_var = if_else(year_int %in% c(2016, 2017, # last two years trui
+                                                    2018, 2019, # two years simple
+                                                    2021, 2022), # last two years horse
+                                    TRUE,
+                                    FALSE)
+  ) %>%
+  group_by(Eigenaar, year_type, ranking_year_compare_var) %>%
+  mutate(ranking_var_by_type = if_else(n() > 1, var(ranking), NA),
+         ranking_cor_by_type = min(ranking), max(ranking), use = "complete.obs") %>%
+  ungroup()
 
 #participants_df2 <- participants_df %>%
 
-
+test3 <- participants_df2 %>%
+  filter(ranking_year_compare_var == TRUE) %>%
+  group_by(year_type) %>%
+  summarize(var = mean(ranking_var_by_type, na.rm = TRUE),
+            cor = mean(ranking_cor_by_type, na.rm = TRUE))
 
 
 test <- participants_df %>%
@@ -73,7 +93,7 @@ test <- participants_df %>%
     everything()
   )
 
-test <- participants_df %>%
+test <- participants_df2 %>%
   filter(Eigenaar %in% c("Corneel den Hartogh")) %>% #, "Yvonne Rouwhorst")) %>%
   select(
     Eigenaar,
@@ -82,6 +102,18 @@ test <- participants_df %>%
     everything()
   ) %>%
   arrange(year_int)
+
+test_old <- participants_df_old %>%
+  filter(Eigenaar %in% c("Corneel den Hartogh")) %>% #, "Yvonne Rouwhorst")) %>%
+  select(
+    Eigenaar,
+    year_int,
+    starts_with("ranking"),
+    everything()
+  ) %>%
+  arrange(year_int)
+
+
 
 ## TODO make stand cols for pnt_ cols
 
